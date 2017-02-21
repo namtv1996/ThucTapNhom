@@ -33,12 +33,13 @@
             System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Xóa");
             System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Hướng dẫn");
             this.tre = new System.Windows.Forms.TreeView();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlMain = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // tre
             // 
             this.tre.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.tre.Dock = System.Windows.Forms.DockStyle.Left;
             this.tre.Location = new System.Drawing.Point(0, 0);
             this.tre.Name = "tre";
             treeNode1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -58,23 +59,23 @@
             treeNode2,
             treeNode3,
             treeNode4});
-            this.tre.Size = new System.Drawing.Size(121, 391);
+            this.tre.Size = new System.Drawing.Size(121, 497);
             this.tre.TabIndex = 0;
-
             // 
-            // panel1
+            // pnlMain
             // 
-            this.panel1.Location = new System.Drawing.Point(127, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(574, 391);
-            this.panel1.TabIndex = 1;
+            this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlMain.Location = new System.Drawing.Point(121, 0);
+            this.pnlMain.Name = "pnlMain";
+            this.pnlMain.Size = new System.Drawing.Size(615, 497);
+            this.pnlMain.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(701, 392);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(736, 497);
+            this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.tre);
             this.Name = "Form1";
             this.Text = "Quản Lý Nhân Sự";
@@ -85,7 +86,7 @@
         #endregion
 
         private System.Windows.Forms.TreeView tre;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlMain;
     }
 }
 

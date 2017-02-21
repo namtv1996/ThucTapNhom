@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using QuanLyNhanSu.UC;
+using System;
 using System.Windows.Forms;
 
 namespace QuanLyNhanSu
@@ -15,8 +9,12 @@ namespace QuanLyNhanSu
         public Form1()
         {
             InitializeComponent();
+            Load += Form1_Load;
         }
 
-   
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            pnlMain.Controls.Add(new Personnel());
+        }
     }
 }

@@ -11,3 +11,33 @@ c:\users\namtv1996\documents\visual studio 2015\Projects\QuanLyNhanSu\QuanLyNhan
 c:\users\namtv1996\documents\visual studio 2015\Projects\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
 c:\users\namtv1996\documents\visual studio 2015\Projects\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
 c:\users\namtv1996\documents\visual studio 2015\Projects\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\Do Quang Hung\Desktop\Github\Thực tập nhóm\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+C:\Users\Do Quang Hung\Desktop\Github\Thực tập nhóm\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+C:\Users\Do Quang Hung\Desktop\Github\Thực tập nhóm\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+C:\Users\Do Quang Hung\Desktop\Github\Thực tập nhóm\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\EntityFramework.dll
+C:\Users\Do Quang Hung\Desktop\Github\Thực tập nhóm\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Do Quang Hung\Desktop\Github\Thực tập nhóm\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\EntityFramework.xml
+C:\Users\Do Quang Hung\Desktop\Github\Thực tập nhóm\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Do Quang Hung\Desktop\Github\Thực tập nhóm\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
+C:\Users\Do Quang Hung\Desktop\Github\Thực tập nhóm\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Form1.resources
+C:\Users\Do Quang Hung\Desktop\Github\Thực tập nhóm\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+C:\Users\Do Quang Hung\Desktop\Github\Thực tập nhóm\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.UC.Personnel.resources
+C:\Users\Do Quang Hung\Desktop\Github\Thực tập nhóm\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
+C:\Users\Do Quang Hung\Desktop\Github\Thực tập nhóm\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+C:\Users\Do Quang Hung\Desktop\Github\Thực tập nhóm\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\EntityFramework.dll
+C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\EntityFramework.xml
+C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
+C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Form1.resources
+C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Form2.resources
+C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.UC.Personnel.resources
+C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
+C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Form3.resources
