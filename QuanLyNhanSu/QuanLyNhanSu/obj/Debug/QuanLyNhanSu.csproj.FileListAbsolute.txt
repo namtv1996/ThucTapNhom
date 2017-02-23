@@ -41,3 +41,19 @@ C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\
 C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
 C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
 C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Form3.resources
+F:\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+F:\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+F:\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+F:\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\EntityFramework.dll
+F:\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\EntityFramework.SqlServer.dll
+F:\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\EntityFramework.xml
+F:\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\EntityFramework.SqlServer.xml
+F:\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
+F:\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Form1.resources
+F:\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Form2.resources
+F:\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Form3.resources
+F:\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+F:\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.UC.Personnel.resources
+F:\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
+F:\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+F:\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
