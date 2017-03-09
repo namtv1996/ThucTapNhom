@@ -39,6 +39,14 @@ namespace QuanLyNhanSu.UC
             {
                 dgvList.DataSource = db.NhanViens.Select(x => x).ToList();
             }
+            if (dgvList.Rows.Count > 1)
+            {
+                foreach (DataGridViewRow row in dgvList.Rows)
+                {
+                    for (int i = 0; i < row.Cells.Count - 1; i++)
+                        txtSearch.AutoCompleteCustomSource.Add(row.Cells[i].Value.ToString());
+                }
+            }
         }
 
         private void BtnSearch_Click(object sender, EventArgs e)
@@ -49,7 +57,7 @@ namespace QuanLyNhanSu.UC
                 {
                     new SqlParameter("@key", txtSearch.Text)
                 };
-                dgvList.DataSource=db.NhanViens.SqlQuery("dbo.personnel_search @key", para).ToList();
+                dgvList.DataSource = db.NhanViens.SqlQuery("dbo.personnel_search @key", para).ToList();
             }
         }
 
@@ -93,13 +101,25 @@ namespace QuanLyNhanSu.UC
 
             txtID.Text = dgvList.Rows[e.RowIndex].Cells[0].Value.ToString();
             txtName.Text = dgvList.Rows[e.RowIndex].Cells[1].Value.ToString();
-            dtpDOB.Text = dgvList.Rows[e.RowIndex].Cells[2].Value.ToString();
-            if (dgvList.Rows[e.RowIndex].Cells[4].Value.ToString() == "Male")
-                rbnMale.Checked = true;
-            else rbnFemale.Checked = true; ;
-            txtAddress.Text = dgvList.Rows[e.RowIndex].Cells[3].Value.ToString();
-            txtNation.Text = dgvList.Rows[e.RowIndex].Cells[5].Value.ToString();
-            txtPhone.Text = dgvList.Rows[e.RowIndex].Cells[6].Value.ToString();
+            dtpDOB.Value = dgvList.Rows[e.RowIndex].Cells[2].Value != null ? DateTime.Parse(dgvList.Rows[e.RowIndex].Cells[2].Value.ToString()) : DateTime.Now;
+            if (dgvList.Rows[e.RowIndex].Cells[4].Value != null)
+            {
+                if (dgvList.Rows[e.RowIndex].Cells[4].Value.ToString() == "Male")
+                    rbnMale.Checked = true;
+                else if(dgvList.Rows[e.RowIndex].Cells[4].Value.ToString() == "Female")
+                    rbnFemale.Checked = true;
+            }
+            else
+            {
+                rbnFemale.Checked = false;
+                rbnMale.Checked = false;
+            }
+            if (dgvList.Rows[e.RowIndex].Cells[3].Value != null)
+                txtAddress.Text = dgvList.Rows[e.RowIndex].Cells[3].Value.ToString();
+            if (dgvList.Rows[e.RowIndex].Cells[5].Value != null)
+                txtNation.Text = dgvList.Rows[e.RowIndex].Cells[5].Value.ToString();
+            if (dgvList.Rows[e.RowIndex].Cells[6].Value != null)
+                txtPhone.Text = dgvList.Rows[e.RowIndex].Cells[6].Value.ToString();
             cbxDepartmentID.SelectedValue = dgvList.Rows[e.RowIndex].Cells[7].Value;
             cbxAcademicLevelID.SelectedValue = dgvList.Rows[e.RowIndex].Cells[8].Value;
             cbxSalary.SelectedValue = dgvList.Rows[e.RowIndex].Cells[9].Value;
@@ -182,7 +202,7 @@ namespace QuanLyNhanSu.UC
         {
             using (QLNhanSuDbContext db = new QLNhanSuDbContext())
             {
-                dgvList.DataSource = db.NhanViens.Select(x => x).ToList();
+                dgvList.DataSource = db.NhanViens.Select(n => n).ToList();
 
                 cbxDepartmentID.DataSource = (from depart in db.PhongBans select depart).ToList();
                 cbxDepartmentID.ValueMember = "MaPB";
@@ -196,10 +216,16 @@ namespace QuanLyNhanSu.UC
                 cbxSalary.ValueMember = "BacLuong";
                 cbxSalary.DisplayMember = "BacLuong";
 
-                foreach (DataGridViewRow row in dgvList.Rows)
+                if (dgvList.Rows.Count > 1)
                 {
-                    for (int i = 0; i < row.Cells.Count - 1; i++)
-                        txtSearch.AutoCompleteCustomSource.Add(row.Cells[i].Value.ToString());
+                    foreach (DataGridViewRow row in dgvList.Rows)
+                    {
+                        for (int i = 0; i < row.Cells.Count - 1; i++)
+                        {
+                            if (row.Cells[i].Value != null)
+                                txtSearch.AutoCompleteCustomSource.Add(row.Cells[i].Value.ToString());
+                        }
+                    }
                 }
             }
         }

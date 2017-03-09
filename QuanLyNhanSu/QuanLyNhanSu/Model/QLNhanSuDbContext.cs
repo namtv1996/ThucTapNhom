@@ -46,12 +46,12 @@ namespace QuanLyNhanSu
             modelBuilder.Entity<NhanVien>()
                 .Property(e => e.MaTDHV)
                 .IsUnicode(false);
-
+            /*
             modelBuilder.Entity<NhanVien>()
                 .HasMany(e => e.ThoiGianCongTacs)
                 .WithRequired(e => e.NhanVien)
                 .WillCascadeOnDelete(false);
-
+                */
             modelBuilder.Entity<PhongBan>()
                 .Property(e => e.MaPB)
                 .IsUnicode(false);

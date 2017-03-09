@@ -12,7 +12,7 @@ namespace QuanLyNhanSu
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public NhanVien()
         {
-            ThoiGianCongTacs = new HashSet<ThoiGianCongTac>();
+            //ThoiGianCongTacs = new HashSet<ThoiGianCongTac>();
         }
 
         [Key]
@@ -45,13 +45,13 @@ namespace QuanLyNhanSu
 
         public int? BacLuong { get; set; }
 
-        public virtual Luong Luong { get; set; }
+        //public virtual Luong Luong { get; set; }
 
-        public virtual PhongBan PhongBan { get; set; }
+        //public virtual PhongBan PhongBan { get; set; }
 
-        public virtual TrinhDoHocVan TrinhDoHocVan { get; set; }
+        //public virtual TrinhDoHocVan TrinhDoHocVan { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<ThoiGianCongTac> ThoiGianCongTacs { get; set; }
+        //[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        //public virtual ICollection<ThoiGianCongTac> ThoiGianCongTacs { get; set; }
     }
 }
