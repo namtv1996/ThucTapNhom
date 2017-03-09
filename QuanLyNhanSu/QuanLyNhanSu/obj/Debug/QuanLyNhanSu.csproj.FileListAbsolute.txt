@@ -41,3 +41,6 @@ C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\
 C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
 C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
 C:\Users\Do Quang Hung\Desktop\Github\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Form3.resources
+C:\Users\namtv1996\Desktop\GitHub_ThucTapNhom\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+C:\Users\namtv1996\Desktop\GitHub_ThucTapNhom\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+C:\Users\namtv1996\Desktop\GitHub_ThucTapNhom\ThucTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
